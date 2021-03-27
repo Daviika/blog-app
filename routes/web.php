@@ -15,5 +15,8 @@ use \App\Http\Controllers\HomeController;
 Route::get('/',[HomeController::class,'index']);
 Route::get('/about',[Homecontroller::class,'about']);
 Route::get('/contact',function(){
-    return 'Contat US!';
+    return 'Contat US! ';
+});
+Route::get('/contact2',function(){
+    return 'Contat US! ';
 });
