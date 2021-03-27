@@ -17,3 +17,7 @@ Route::get('/about',[Homecontroller::class,'about']);
 Route::get('/contact',function(){
     return 'Contat US!';
 });
+
+Route::get('/contact3',function(){
+    return 'Contat US!';
+});
